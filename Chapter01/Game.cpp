@@ -24,6 +24,7 @@ Game::Game()
 bool Game::Initialize()
 {
 	// Initialize SDL
+	//Init()関数で初期化はいろんな場合でよく出てくる。Logとセット。
 	int sdlResult = SDL_Init(SDL_INIT_VIDEO);
 	if (sdlResult != 0)
 	{
